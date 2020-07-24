@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SparkFun-Boards)(type Eagle)(uri ${KIPRJMOD}/SparkFun-Eagle-Libraries/SparkFun-Boards.lbr)(options "")(descr ""))
+)
