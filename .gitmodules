@@ -1,3 +1,6 @@
 [submodule "SparkFun-KiCad-Libraries"]
 	path = SparkFun-KiCad-Libraries
 	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
+[submodule "SparkFun-Eagle-Libraries"]
+	path = SparkFun-Eagle-Libraries
+	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
