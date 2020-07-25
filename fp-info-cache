@@ -1,4 +1,4 @@
-19067676019331835
+19080365081804653
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6138,6 +6138,62 @@ capacitor tantalum
 0
 2
 2
+Cherry MX
+Cherry-MX_PCB-Mounted
+
+
+0
+2
+2
+Cherry MX
+Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket
+
+
+0
+6
+6
+Cherry MX
+Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Mill-Max-7305
+
+
+0
+6
+6
+Cherry MX
+Cherry-MX_Plate-Mounted
+
+
+0
+2
+2
+Cherry MX
+Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket
+
+
+0
+6
+6
+Cherry MX
+Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Mill-Max-7305
+
+
+0
+6
+6
+Cherry MX
+Kailh_Socket
+
+
+0
+2
+2
+Cherry MX
+LTST-A683CEGBW
+
+
+0
+4
+4
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
