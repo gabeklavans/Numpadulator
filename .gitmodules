@@ -1,3 +1,6 @@
 [submodule "SparkFun-Eagle-Libraries"]
 	path = SparkFun-Eagle-Libraries
 	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
+[submodule "Cherry-MX-Breakout-Board"]
+	path = Cherry-MX-Breakout-Board
+	url = https://github.com/sszczep/Cherry-MX-Breakout-Board.git
