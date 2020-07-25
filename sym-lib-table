@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name PRO_MICRO_C)(type Legacy)(uri ${KIPRJMOD}/PRO_MICRO_C.lib)(options "")(descr ""))
+  (lib (name Cherry_MX)(type Legacy)(uri ${KIPRJMOD}/Cherry-MX-Breakout-Board/libraries/Cherry_MX.lib)(options "")(descr ""))
 )
