@@ -604,7 +604,7 @@
   )
 
   (module "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" (layer F.Cu) (tedit 5F21D0C2) (tstamp 5F24B059)
-    (at 121.44375 121.44375)
+    (at 181.025 93.48125)
     (path /5F2E4652)
     (fp_text reference SW17 (at 0 -10.668) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -657,7 +657,7 @@
   )
 
   (module "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" (layer F.Cu) (tedit 5F21D0C2) (tstamp 5F24B03B)
-    (at 120.65 84.1375)
+    (at 201.145 93.48125)
     (path /5F2765D1)
     (fp_text reference SW16 (at 0 -10.668) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
