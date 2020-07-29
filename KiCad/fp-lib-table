@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name SparkFun-Boards)(type Eagle)(uri ${KIPRJMOD}/SparkFun-Eagle-Libraries/SparkFun-Boards.lbr)(options "")(descr ""))
   (lib (name "Cherry MX")(type KiCad)(uri "${KIPRJMOD}/Cherry-MX-Breakout-Board/libraries/Cherry MX.pretty")(options "")(descr ""))
+  (lib (name Custom-parts)(type KiCad)(uri ${KIPRJMOD}/Custom-parts.pretty)(options "")(descr ""))
 )
