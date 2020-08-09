@@ -58,11 +58,29 @@ X GND 8 350 350 200 D 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Device_C_Small
+# MX_Alps_Hybrid_MX-NoLED
 #
-DEF Device_C_Small C 0 10 N N 1 F N
+DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+T 0 125 0 30 0 0 0 COL Normal 0 C C
+T 900 0 -75 30 0 0 0 ROW Normal 0 R C
+S -100 100 50 -50 0 0 0 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Numpadulator-rescue_C_Small-Device
+#
+DEF Numpadulator-rescue_C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
+F1 "Numpadulator-rescue_C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -76,11 +94,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Small
+# Numpadulator-rescue_D_Small-Device
 #
-DEF Device_D_Small D 0 10 N N 1 F N
+DEF Numpadulator-rescue_D_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "Device_D_Small" -150 -80 50 H V L CNN
+F1 "Numpadulator-rescue_D_Small-Device" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -98,11 +116,24 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Rotary_Encoder_Switch
+# Numpadulator-rescue_GND-power
 #
-DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
+DEF Numpadulator-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Numpadulator-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Numpadulator-rescue_Rotary_Encoder_Switch-Device
+#
+DEF Numpadulator-rescue_Rotary_Encoder_Switch-Device SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "Device_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
+F1 "Numpadulator-rescue_Rotary_Encoder_Switch-Device" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST
@@ -136,21 +167,18 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MX_Alps_Hybrid_MX-NoLED
+# Numpadulator-rescue_VCC-power
 #
-DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
-F0 "MX" -25 150 60 H V C CNN
-F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
-F2 "" -625 -25 60 H I C CNN
-F3 "" -625 -25 60 H I C CNN
+DEF Numpadulator-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Numpadulator-rescue_VCC-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 125 0 30 0 0 0 COL Normal 0 C C
-T 900 0 -75 30 0 0 0 ROW Normal 0 R C
-S -100 100 50 -50 0 0 0 N
-P 2 0 0 5 -50 -50 -50 50 N
-P 3 0 0 5 50 50 0 50 -50 75 N
-X COL 1 150 50 100 L 0 0 1 1 P
-X ROW 2 -50 -150 100 U 0 0 1 1 P
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -190,34 +218,6 @@ X D3 6 -500 0 100 R 40 40 0 0 B
 X D4 7 -500 -100 100 R 40 40 0 0 B
 X D5 8 -500 -200 100 R 40 40 0 0 B
 X D6 9 -500 -300 100 R 40 40 0 0 B
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

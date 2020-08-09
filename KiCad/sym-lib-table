@@ -3,4 +3,5 @@
   (lib (name Cherry_MX)(type Legacy)(uri ${KIPRJMOD}/Cherry-MX-Breakout-Board/libraries/Cherry_MX.lib)(options "")(descr ""))
   (lib (name Custom_Library)(type Legacy)(uri ${KIPRJMOD}/Custom_Library.lib)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri ${KIPRJMOD}/MX_Alps_Hybrid.lib)(options "")(descr ""))
+  (lib (name Numpadulator-rescue)(type Legacy)(uri ${KIPRJMOD}/Numpadulator-rescue.lib)(options "")(descr ""))
 )

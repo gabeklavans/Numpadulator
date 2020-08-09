@@ -29,7 +29,7 @@ SDA
 Text GLabel 9825 2825 2    50   Input ~ 0
 SCL
 $Comp
-L power:VCC #PWR0101
+L Numpadulator-rescue:VCC-power #PWR0101
 U 1 1 5F1F5638
 P 10025 3325
 F 0 "#PWR0101" H 10025 3175 50  0001 C CNN
@@ -40,7 +40,7 @@ F 3 "" H 10025 3325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L Numpadulator-rescue:GND-power #PWR0102
 U 1 1 5F1F5EDF
 P 10025 3425
 F 0 "#PWR0102" H 10025 3175 50  0001 C CNN
@@ -55,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	9825 3425 10025 3425
 $Comp
-L power:GND #PWR0103
+L Numpadulator-rescue:GND-power #PWR0103
 U 1 1 5F1F7964
 P 5925 1275
 F 0 "#PWR0103" H 5925 1025 50  0001 C CNN
@@ -91,7 +91,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 2200 3775 2200
 $Comp
-L Device:D_Small D7
+L Numpadulator-rescue:D_Small-Device D7
 U 1 1 5F2508E1
 P 3875 2200
 F 0 "D7" H 3850 2025 50  0000 C CNN
@@ -108,7 +108,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 2200 2100 2200
 $Comp
-L Device:D_Small D2
+L Numpadulator-rescue:D_Small-Device D2
 U 1 1 5F2470B1
 P 2200 2200
 F 0 "D2" H 2175 2025 50  0000 C CNN
@@ -122,7 +122,7 @@ Connection ~ 2050 1175
 Wire Wire Line
 	2050 1175 2050 2100
 $Comp
-L Device:D_Small D19
+L Numpadulator-rescue:D_Small-Device D19
 U 1 1 5F2428A3
 P 7250 1375
 F 0 "D19" H 7250 1200 50  0000 C CNN
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1275 2100 1275
 $Comp
-L Device:D_Small D1
+L Numpadulator-rescue:D_Small-Device D1
 U 1 1 5F236DCA
 P 2200 1275
 F 0 "D1" H 2175 1100 50  0000 C CNN
@@ -224,7 +224,7 @@ $EndComp
 Wire Wire Line
 	10200 975  10575 975 
 $Comp
-L power:GND #PWR0104
+L Numpadulator-rescue:GND-power #PWR0104
 U 1 1 5F1FE193
 P 10575 975
 F 0 "#PWR0104" H 10575 725 50  0001 C CNN
@@ -237,7 +237,7 @@ $EndComp
 Wire Wire Line
 	10200 1175 10725 1175
 $Comp
-L power:VCC #PWR0105
+L Numpadulator-rescue:VCC-power #PWR0105
 U 1 1 5F1F629E
 P 10725 1175
 F 0 "#PWR0105" H 10725 1025 50  0001 C CNN
@@ -260,7 +260,7 @@ ROTB
 Text GLabel 6275 1175 0    50   Input ~ 0
 ROTA
 $Comp
-L Device:Rotary_Encoder_Switch SW19
+L Numpadulator-rescue:Rotary_Encoder_Switch-Device SW19
 U 1 1 5F1D3156
 P 6575 1275
 F 0 "SW19" H 6575 1642 50  0000 C CNN
@@ -277,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	6875 1375 7150 1375
 $Comp
-L power:GND #PWR0106
+L Numpadulator-rescue:GND-power #PWR0106
 U 1 1 5F6FDA19
 P 8825 1075
 F 0 "#PWR0106" H 8825 825 50  0001 C CNN
@@ -298,7 +298,7 @@ Wire Wire Line
 	9075 1075 8825 1075
 NoConn ~ 10200 1075
 $Comp
-L Device:C_Small C1
+L Numpadulator-rescue:C_Small-Device C1
 U 1 1 5F8D7951
 P 925 1100
 F 0 "C1" H 775 1150 50  0000 L CNN
@@ -309,7 +309,7 @@ F 3 "~" H 925 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L Numpadulator-rescue:GND-power #PWR0108
 U 1 1 5F904C6B
 P 925 1200
 F 0 "#PWR0108" H 925 950 50  0001 C CNN
@@ -325,7 +325,7 @@ Connection ~ 925  950
 Wire Wire Line
 	925  950  925  900 
 $Comp
-L power:VCC #PWR0109
+L Numpadulator-rescue:VCC-power #PWR0109
 U 1 1 5F91BE8E
 P 925 900
 F 0 "#PWR0109" H 925 750 50  0001 C CNN
@@ -338,7 +338,7 @@ $EndComp
 Wire Wire Line
 	1200 1375 1175 1375
 $Comp
-L Device:C_Small C6
+L Numpadulator-rescue:C_Small-Device C6
 U 1 1 5F992444
 P 950 2050
 F 0 "C6" H 800 2100 50  0000 L CNN
@@ -349,7 +349,7 @@ F 3 "~" H 950 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L Numpadulator-rescue:GND-power #PWR0111
 U 1 1 5F99244A
 P 950 2150
 F 0 "#PWR0111" H 950 1900 50  0001 C CNN
@@ -365,7 +365,7 @@ Connection ~ 950  1900
 Wire Wire Line
 	950  1900 950  1850
 $Comp
-L power:VCC #PWR0112
+L Numpadulator-rescue:VCC-power #PWR0112
 U 1 1 5F992453
 P 950 1850
 F 0 "#PWR0112" H 950 1700 50  0001 C CNN
@@ -396,7 +396,7 @@ Wire Wire Line
 Wire Wire Line
 	3875 2300 3875 2400
 $Comp
-L Device:C_Small C7
+L Numpadulator-rescue:C_Small-Device C7
 U 1 1 5F505D15
 P 2625 2050
 F 0 "C7" H 2450 2000 50  0000 L CNN
@@ -407,7 +407,7 @@ F 3 "~" H 2625 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L Numpadulator-rescue:GND-power #PWR0107
 U 1 1 5F505D1B
 P 2625 2150
 F 0 "#PWR0107" H 2625 1900 50  0001 C CNN
@@ -423,7 +423,7 @@ Connection ~ 2625 1900
 Wire Wire Line
 	2625 1900 2625 1850
 $Comp
-L power:VCC #PWR0110
+L Numpadulator-rescue:VCC-power #PWR0110
 U 1 1 5F505D24
 P 2625 1850
 F 0 "#PWR0110" H 2625 1700 50  0001 C CNN
@@ -463,7 +463,7 @@ $EndComp
 Wire Wire Line
 	5200 2300 5550 2300
 $Comp
-L Device:C_Small C12
+L Numpadulator-rescue:C_Small-Device C12
 U 1 1 5F257DBF
 P 4300 2050
 F 0 "C12" H 4125 2000 50  0000 L CNN
@@ -474,7 +474,7 @@ F 3 "~" H 4300 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L Numpadulator-rescue:GND-power #PWR0113
 U 1 1 5F257DC5
 P 4300 2150
 F 0 "#PWR0113" H 4300 1900 50  0001 C CNN
@@ -490,7 +490,7 @@ Connection ~ 4300 1900
 Wire Wire Line
 	4300 1900 4300 1850
 $Comp
-L power:VCC #PWR0114
+L Numpadulator-rescue:VCC-power #PWR0114
 U 1 1 5F257DCE
 P 4300 1850
 F 0 "#PWR0114" H 4300 1700 50  0001 C CNN
@@ -511,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2200 5650 2525
 $Comp
-L Device:D_Small D11
+L Numpadulator-rescue:D_Small-Device D11
 U 1 1 5F26867A
 P 5550 2200
 F 0 "D11" H 5525 2025 50  0000 C CNN
@@ -543,7 +543,7 @@ $EndComp
 Wire Wire Line
 	6875 2300 7225 2300
 $Comp
-L Device:C_Small C16
+L Numpadulator-rescue:C_Small-Device C16
 U 1 1 5F2765D8
 P 5975 2050
 F 0 "C16" H 5800 2000 50  0000 L CNN
@@ -554,7 +554,7 @@ F 3 "~" H 5975 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L Numpadulator-rescue:GND-power #PWR0115
 U 1 1 5F2765DE
 P 5975 2150
 F 0 "#PWR0115" H 5975 1900 50  0001 C CNN
@@ -570,7 +570,7 @@ Connection ~ 5975 1900
 Wire Wire Line
 	5975 1900 5975 1850
 $Comp
-L power:VCC #PWR0116
+L Numpadulator-rescue:VCC-power #PWR0116
 U 1 1 5F2765E7
 P 5975 1850
 F 0 "#PWR0116" H 5975 1700 50  0001 C CNN
@@ -589,7 +589,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 2200 7325 2525
 $Comp
-L Device:D_Small D16
+L Numpadulator-rescue:D_Small-Device D16
 U 1 1 5F283C3F
 P 7225 2200
 F 0 "D16" H 7200 2025 50  0000 C CNN
@@ -607,7 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 3200 3775 3200
 $Comp
-L Device:D_Small D8
+L Numpadulator-rescue:D_Small-Device D8
 U 1 1 5F2E45CE
 P 3875 3200
 F 0 "D8" H 3850 3025 50  0000 C CNN
@@ -624,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 3200 2100 3200
 $Comp
-L Device:D_Small D3
+L Numpadulator-rescue:D_Small-Device D3
 U 1 1 5F2E45D7
 P 2200 3200
 F 0 "D3" H 2175 3025 50  0000 C CNN
@@ -659,7 +659,7 @@ F 3 "" H 1525 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L Numpadulator-rescue:C_Small-Device C2
 U 1 1 5F2E45EB
 P 925 3050
 F 0 "C2" H 775 3100 50  0000 L CNN
@@ -670,7 +670,7 @@ F 3 "~" H 925 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L Numpadulator-rescue:GND-power #PWR0117
 U 1 1 5F2E45F1
 P 925 3150
 F 0 "#PWR0117" H 925 2900 50  0001 C CNN
@@ -686,7 +686,7 @@ Connection ~ 925  2900
 Wire Wire Line
 	925  2900 925  2850
 $Comp
-L power:VCC #PWR0118
+L Numpadulator-rescue:VCC-power #PWR0118
 U 1 1 5F2E45FA
 P 925 2850
 F 0 "#PWR0118" H 925 2700 50  0001 C CNN
@@ -709,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	3875 3300 3875 3400
 $Comp
-L Device:C_Small C8
+L Numpadulator-rescue:C_Small-Device C8
 U 1 1 5F2E4609
 P 2625 3050
 F 0 "C8" H 2450 3000 50  0000 L CNN
@@ -720,7 +720,7 @@ F 3 "~" H 2625 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L Numpadulator-rescue:GND-power #PWR0119
 U 1 1 5F2E460F
 P 2625 3150
 F 0 "#PWR0119" H 2625 2900 50  0001 C CNN
@@ -736,7 +736,7 @@ Connection ~ 2625 2900
 Wire Wire Line
 	2625 2900 2625 2850
 $Comp
-L power:VCC #PWR0120
+L Numpadulator-rescue:VCC-power #PWR0120
 U 1 1 5F2E4618
 P 2625 2850
 F 0 "#PWR0120" H 2625 2700 50  0001 C CNN
@@ -777,7 +777,7 @@ $EndComp
 Wire Wire Line
 	5200 3300 5550 3300
 $Comp
-L Device:C_Small C13
+L Numpadulator-rescue:C_Small-Device C13
 U 1 1 5F2E462E
 P 4300 3050
 F 0 "C13" H 4125 3000 50  0000 L CNN
@@ -788,7 +788,7 @@ F 3 "~" H 4300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0121
+L Numpadulator-rescue:GND-power #PWR0121
 U 1 1 5F2E4634
 P 4300 3150
 F 0 "#PWR0121" H 4300 2900 50  0001 C CNN
@@ -804,7 +804,7 @@ Connection ~ 4300 2900
 Wire Wire Line
 	4300 2900 4300 2850
 $Comp
-L power:VCC #PWR0122
+L Numpadulator-rescue:VCC-power #PWR0122
 U 1 1 5F2E463D
 P 4300 2850
 F 0 "#PWR0122" H 4300 2700 50  0001 C CNN
@@ -825,7 +825,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 3200 5650 3525
 $Comp
-L Device:D_Small D12
+L Numpadulator-rescue:D_Small-Device D12
 U 1 1 5F2E4648
 P 5550 3200
 F 0 "D12" H 5525 3025 50  0000 C CNN
@@ -838,7 +838,7 @@ $EndComp
 Wire Wire Line
 	5550 3300 5550 3400
 $Comp
-L Device:C_Small C17
+L Numpadulator-rescue:C_Small-Device C17
 U 1 1 5F2E4659
 P 5975 3050
 F 0 "C17" H 5800 2975 50  0000 L CNN
@@ -849,7 +849,7 @@ F 3 "~" H 5975 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L Numpadulator-rescue:GND-power #PWR0123
 U 1 1 5F2E465F
 P 5975 3150
 F 0 "#PWR0123" H 5975 2900 50  0001 C CNN
@@ -865,7 +865,7 @@ Connection ~ 5975 2900
 Wire Wire Line
 	5975 2900 5975 2850
 $Comp
-L power:VCC #PWR0124
+L Numpadulator-rescue:VCC-power #PWR0124
 U 1 1 5F2E4668
 P 5975 2850
 F 0 "#PWR0124" H 5975 2700 50  0001 C CNN
@@ -884,7 +884,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 3200 7325 3525
 $Comp
-L Device:D_Small D17
+L Numpadulator-rescue:D_Small-Device D17
 U 1 1 5F2E4672
 P 7225 3200
 F 0 "D17" H 7200 3025 50  0000 C CNN
@@ -906,7 +906,7 @@ Wire Wire Line
 Wire Wire Line
 	1075 2625 1075 3400
 $Comp
-L power:GND #PWR0125
+L Numpadulator-rescue:GND-power #PWR0125
 U 1 1 5F317829
 P 1850 2400
 F 0 "#PWR0125" H 1850 2150 50  0001 C CNN
@@ -917,7 +917,7 @@ F 3 "" H 1850 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0126
+L Numpadulator-rescue:GND-power #PWR0126
 U 1 1 5F31B109
 P 3525 2400
 F 0 "#PWR0126" H 3525 2150 50  0001 C CNN
@@ -928,7 +928,7 @@ F 3 "" H 3525 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0127
+L Numpadulator-rescue:GND-power #PWR0127
 U 1 1 5F31BC01
 P 5200 2400
 F 0 "#PWR0127" H 5200 2150 50  0001 C CNN
@@ -939,7 +939,7 @@ F 3 "" H 5200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L Numpadulator-rescue:GND-power #PWR0128
 U 1 1 5F31C73E
 P 6875 2400
 F 0 "#PWR0128" H 6875 2150 50  0001 C CNN
@@ -963,7 +963,7 @@ Connection ~ 7075 2100
 Wire Wire Line
 	5400 2100 5400 775 
 $Comp
-L power:GND #PWR0129
+L Numpadulator-rescue:GND-power #PWR0129
 U 1 1 5F37B76B
 P 1850 3400
 F 0 "#PWR0129" H 1850 3150 50  0001 C CNN
@@ -974,7 +974,7 @@ F 3 "" H 1850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L Numpadulator-rescue:GND-power #PWR0130
 U 1 1 5F37BED1
 P 3525 3400
 F 0 "#PWR0130" H 3525 3150 50  0001 C CNN
@@ -985,7 +985,7 @@ F 3 "" H 3525 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0131
+L Numpadulator-rescue:GND-power #PWR0131
 U 1 1 5F37C552
 P 5200 3400
 F 0 "#PWR0131" H 5200 3150 50  0001 C CNN
@@ -996,7 +996,7 @@ F 3 "" H 5200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L Numpadulator-rescue:GND-power #PWR0132
 U 1 1 5F37CBDA
 P 6875 3400
 F 0 "#PWR0132" H 6875 3150 50  0001 C CNN
@@ -1013,7 +1013,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 4200 3775 4200
 $Comp
-L Device:D_Small D9
+L Numpadulator-rescue:D_Small-Device D9
 U 1 1 5F39E86F
 P 3875 4200
 F 0 "D9" H 3850 4025 50  0000 C CNN
@@ -1030,7 +1030,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 4200 2100 4200
 $Comp
-L Device:D_Small D4
+L Numpadulator-rescue:D_Small-Device D4
 U 1 1 5F39E878
 P 2200 4200
 F 0 "D4" H 2175 4025 50  0000 C CNN
@@ -1065,7 +1065,7 @@ F 3 "" H 1525 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L Numpadulator-rescue:C_Small-Device C3
 U 1 1 5F39E88B
 P 925 4050
 F 0 "C3" H 775 4100 50  0000 L CNN
@@ -1076,7 +1076,7 @@ F 3 "~" H 925 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
+L Numpadulator-rescue:GND-power #PWR0133
 U 1 1 5F39E891
 P 925 4150
 F 0 "#PWR0133" H 925 3900 50  0001 C CNN
@@ -1092,7 +1092,7 @@ Connection ~ 925  3900
 Wire Wire Line
 	925  3900 925  3850
 $Comp
-L power:VCC #PWR0134
+L Numpadulator-rescue:VCC-power #PWR0134
 U 1 1 5F39E89A
 P 925 3850
 F 0 "#PWR0134" H 925 3700 50  0001 C CNN
@@ -1115,7 +1115,7 @@ Wire Wire Line
 Wire Wire Line
 	3875 4300 3875 4400
 $Comp
-L Device:C_Small C9
+L Numpadulator-rescue:C_Small-Device C9
 U 1 1 5F39E8A8
 P 2625 4050
 F 0 "C9" H 2450 4000 50  0000 L CNN
@@ -1126,7 +1126,7 @@ F 3 "~" H 2625 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0135
+L Numpadulator-rescue:GND-power #PWR0135
 U 1 1 5F39E8AE
 P 2625 4150
 F 0 "#PWR0135" H 2625 3900 50  0001 C CNN
@@ -1142,7 +1142,7 @@ Connection ~ 2625 3900
 Wire Wire Line
 	2625 3900 2625 3850
 $Comp
-L power:VCC #PWR0136
+L Numpadulator-rescue:VCC-power #PWR0136
 U 1 1 5F39E8B7
 P 2625 3850
 F 0 "#PWR0136" H 2625 3700 50  0001 C CNN
@@ -1183,7 +1183,7 @@ $EndComp
 Wire Wire Line
 	5200 4300 5550 4300
 $Comp
-L Device:C_Small C14
+L Numpadulator-rescue:C_Small-Device C14
 U 1 1 5F39E8CD
 P 4300 4050
 F 0 "C14" H 4125 4000 50  0000 L CNN
@@ -1194,7 +1194,7 @@ F 3 "~" H 4300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0137
+L Numpadulator-rescue:GND-power #PWR0137
 U 1 1 5F39E8D3
 P 4300 4150
 F 0 "#PWR0137" H 4300 3900 50  0001 C CNN
@@ -1210,7 +1210,7 @@ Connection ~ 4300 3900
 Wire Wire Line
 	4300 3900 4300 3850
 $Comp
-L power:VCC #PWR0138
+L Numpadulator-rescue:VCC-power #PWR0138
 U 1 1 5F39E8DC
 P 4300 3850
 F 0 "#PWR0138" H 4300 3700 50  0001 C CNN
@@ -1231,7 +1231,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4200 5650 4525
 $Comp
-L Device:D_Small D13
+L Numpadulator-rescue:D_Small-Device D13
 U 1 1 5F39E8E7
 P 5550 4200
 F 0 "D13" H 5525 4025 50  0000 C CNN
@@ -1246,7 +1246,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3100 5400 4100
 $Comp
-L power:GND #PWR0139
+L Numpadulator-rescue:GND-power #PWR0139
 U 1 1 5F39E8F4
 P 1850 4400
 F 0 "#PWR0139" H 1850 4150 50  0001 C CNN
@@ -1257,7 +1257,7 @@ F 3 "" H 1850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0140
+L Numpadulator-rescue:GND-power #PWR0140
 U 1 1 5F39E8FA
 P 3525 4400
 F 0 "#PWR0140" H 3525 4150 50  0001 C CNN
@@ -1268,7 +1268,7 @@ F 3 "" H 3525 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0141
+L Numpadulator-rescue:GND-power #PWR0141
 U 1 1 5F39E900
 P 5200 4400
 F 0 "#PWR0141" H 5200 4150 50  0001 C CNN
@@ -1316,7 +1316,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 5200 3775 5200
 $Comp
-L Device:D_Small D10
+L Numpadulator-rescue:D_Small-Device D10
 U 1 1 5F4DF1A0
 P 3875 5200
 F 0 "D10" H 3850 5025 50  0000 C CNN
@@ -1333,7 +1333,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 5200 2100 5200
 $Comp
-L Device:D_Small D5
+L Numpadulator-rescue:D_Small-Device D5
 U 1 1 5F4DF1A9
 P 2200 5200
 F 0 "D5" H 2175 5025 50  0000 C CNN
@@ -1368,7 +1368,7 @@ F 3 "" H 1525 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L Numpadulator-rescue:C_Small-Device C4
 U 1 1 5F4DF1BC
 P 925 5050
 F 0 "C4" H 775 5100 50  0000 L CNN
@@ -1379,7 +1379,7 @@ F 3 "~" H 925 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0142
+L Numpadulator-rescue:GND-power #PWR0142
 U 1 1 5F4DF1C2
 P 925 5150
 F 0 "#PWR0142" H 925 4900 50  0001 C CNN
@@ -1395,7 +1395,7 @@ Connection ~ 925  4900
 Wire Wire Line
 	925  4900 925  4850
 $Comp
-L power:VCC #PWR0143
+L Numpadulator-rescue:VCC-power #PWR0143
 U 1 1 5F4DF1CB
 P 925 4850
 F 0 "#PWR0143" H 925 4700 50  0001 C CNN
@@ -1418,7 +1418,7 @@ Wire Wire Line
 Wire Wire Line
 	3875 5300 3875 5400
 $Comp
-L Device:C_Small C10
+L Numpadulator-rescue:C_Small-Device C10
 U 1 1 5F4DF1D7
 P 2625 5050
 F 0 "C10" H 2450 5000 50  0000 L CNN
@@ -1429,7 +1429,7 @@ F 3 "~" H 2625 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0144
+L Numpadulator-rescue:GND-power #PWR0144
 U 1 1 5F4DF1DD
 P 2625 5150
 F 0 "#PWR0144" H 2625 4900 50  0001 C CNN
@@ -1445,7 +1445,7 @@ Connection ~ 2625 4900
 Wire Wire Line
 	2625 4900 2625 4850
 $Comp
-L power:VCC #PWR0145
+L Numpadulator-rescue:VCC-power #PWR0145
 U 1 1 5F4DF1E6
 P 2625 4850
 F 0 "#PWR0145" H 2625 4700 50  0001 C CNN
@@ -1486,7 +1486,7 @@ $EndComp
 Wire Wire Line
 	5200 5300 5550 5300
 $Comp
-L Device:C_Small C15
+L Numpadulator-rescue:C_Small-Device C15
 U 1 1 5F4DF1FC
 P 4300 5050
 F 0 "C15" H 4125 5000 50  0000 L CNN
@@ -1497,7 +1497,7 @@ F 3 "~" H 4300 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0146
+L Numpadulator-rescue:GND-power #PWR0146
 U 1 1 5F4DF202
 P 4300 5150
 F 0 "#PWR0146" H 4300 4900 50  0001 C CNN
@@ -1513,7 +1513,7 @@ Connection ~ 4300 4900
 Wire Wire Line
 	4300 4900 4300 4850
 $Comp
-L power:VCC #PWR0147
+L Numpadulator-rescue:VCC-power #PWR0147
 U 1 1 5F4DF20B
 P 4300 4850
 F 0 "#PWR0147" H 4300 4700 50  0001 C CNN
@@ -1534,7 +1534,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 5200 5650 5525
 $Comp
-L Device:D_Small D14
+L Numpadulator-rescue:D_Small-Device D14
 U 1 1 5F4DF216
 P 5550 5200
 F 0 "D14" H 5525 5025 50  0000 C CNN
@@ -1549,7 +1549,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5400 6225 5400
 $Comp
-L Device:C_Small C18
+L Numpadulator-rescue:C_Small-Device C18
 U 1 1 5F4DF227
 P 5975 5050
 F 0 "C18" H 5800 5000 50  0000 L CNN
@@ -1560,7 +1560,7 @@ F 3 "~" H 5975 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0148
+L Numpadulator-rescue:GND-power #PWR0148
 U 1 1 5F4DF22D
 P 5975 5150
 F 0 "#PWR0148" H 5975 4900 50  0001 C CNN
@@ -1576,7 +1576,7 @@ Connection ~ 5975 4900
 Wire Wire Line
 	5975 4900 5975 4850
 $Comp
-L power:VCC #PWR0149
+L Numpadulator-rescue:VCC-power #PWR0149
 U 1 1 5F4DF236
 P 5975 4850
 F 0 "#PWR0149" H 5975 4700 50  0001 C CNN
@@ -1595,7 +1595,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 5200 7325 5525
 $Comp
-L Device:D_Small D18
+L Numpadulator-rescue:D_Small-Device D18
 U 1 1 5F4DF240
 P 7225 5200
 F 0 "D18" H 7200 5025 50  0000 C CNN
@@ -1610,7 +1610,7 @@ Wire Wire Line
 Wire Wire Line
 	1075 4625 1075 5400
 $Comp
-L power:GND #PWR0150
+L Numpadulator-rescue:GND-power #PWR0150
 U 1 1 5F4DF249
 P 1850 5400
 F 0 "#PWR0150" H 1850 5150 50  0001 C CNN
@@ -1621,7 +1621,7 @@ F 3 "" H 1850 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0151
+L Numpadulator-rescue:GND-power #PWR0151
 U 1 1 5F4DF24F
 P 3525 5400
 F 0 "#PWR0151" H 3525 5150 50  0001 C CNN
@@ -1632,7 +1632,7 @@ F 3 "" H 3525 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0152
+L Numpadulator-rescue:GND-power #PWR0152
 U 1 1 5F4DF255
 P 5200 5400
 F 0 "#PWR0152" H 5200 5150 50  0001 C CNN
@@ -1643,7 +1643,7 @@ F 3 "" H 5200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0153
+L Numpadulator-rescue:GND-power #PWR0153
 U 1 1 5F4DF25B
 P 6875 5400
 F 0 "#PWR0153" H 6875 5150 50  0001 C CNN
@@ -1689,7 +1689,7 @@ ROW5
 Wire Wire Line
 	2300 6200 2300 6525
 $Comp
-L Device:D_Small D6
+L Numpadulator-rescue:D_Small-Device D6
 U 1 1 5F560AC4
 P 2200 6200
 F 0 "D6" H 2175 6025 50  0000 C CNN
@@ -1700,7 +1700,7 @@ F 3 "~" V 2200 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C5
+L Numpadulator-rescue:C_Small-Device C5
 U 1 1 5F560AD1
 P 925 6050
 F 0 "C5" H 775 6100 50  0000 L CNN
@@ -1711,7 +1711,7 @@ F 3 "~" H 925 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0154
+L Numpadulator-rescue:GND-power #PWR0154
 U 1 1 5F560AD7
 P 925 6150
 F 0 "#PWR0154" H 925 5900 50  0001 C CNN
@@ -1727,7 +1727,7 @@ Connection ~ 925  5900
 Wire Wire Line
 	925  5900 925  5850
 $Comp
-L power:VCC #PWR0155
+L Numpadulator-rescue:VCC-power #PWR0155
 U 1 1 5F560AE0
 P 925 5850
 F 0 "#PWR0155" H 925 5700 50  0001 C CNN
@@ -1749,7 +1749,7 @@ Connection ~ 2300 6525
 Wire Wire Line
 	1075 5625 1075 6400
 $Comp
-L power:GND #PWR0156
+L Numpadulator-rescue:GND-power #PWR0156
 U 1 1 5F560AEF
 P 1850 6400
 F 0 "#PWR0156" H 1850 6150 50  0001 C CNN
@@ -1768,7 +1768,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6200 5450 6200
 $Comp
-L Device:D_Small D15
+L Numpadulator-rescue:D_Small-Device D15
 U 1 1 5F58AC2F
 P 5550 6200
 F 0 "D15" H 5525 6025 50  0000 C CNN
@@ -1792,7 +1792,7 @@ F 3 "" H 4875 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C11
+L Numpadulator-rescue:C_Small-Device C11
 U 1 1 5F58AC3C
 P 4275 6050
 F 0 "C11" H 4125 6100 50  0000 L CNN
@@ -1803,7 +1803,7 @@ F 3 "~" H 4275 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0157
+L Numpadulator-rescue:GND-power #PWR0157
 U 1 1 5F58AC42
 P 4275 6150
 F 0 "#PWR0157" H 4275 5900 50  0001 C CNN
@@ -1819,7 +1819,7 @@ Connection ~ 4275 5900
 Wire Wire Line
 	4275 5900 4275 5850
 $Comp
-L power:VCC #PWR0158
+L Numpadulator-rescue:VCC-power #PWR0158
 U 1 1 5F58AC4B
 P 4275 5850
 F 0 "#PWR0158" H 4275 5700 50  0001 C CNN
@@ -1832,7 +1832,7 @@ $EndComp
 Wire Wire Line
 	4550 6300 4525 6300
 $Comp
-L power:GND #PWR0159
+L Numpadulator-rescue:GND-power #PWR0159
 U 1 1 5F58AC57
 P 5200 6400
 F 0 "#PWR0159" H 5200 6150 50  0001 C CNN
@@ -1859,7 +1859,7 @@ These decoupling caps on LEDs\nare recomended by the datasheet
 Wire Wire Line
 	2875 2400 2200 2400
 $Comp
-L power:GND #PWR0160
+L Numpadulator-rescue:GND-power #PWR0160
 U 1 1 5F5DC33E
 P 1850 1475
 F 0 "#PWR0160" H 1850 1225 50  0001 C CNN
