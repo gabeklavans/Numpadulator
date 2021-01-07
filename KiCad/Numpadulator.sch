@@ -193,7 +193,7 @@ $EndComp
 Text GLabel 9200 1775 0    50   Input ~ 0
 COL2
 Text GLabel 9200 1675 0    50   Input ~ 0
-COL1
+COL3
 Text GLabel 9200 1575 0    50   Input ~ 0
 COL0
 Text GLabel 10200 1875 2    50   Input ~ 0
@@ -252,7 +252,7 @@ SCL
 Text GLabel 9200 1275 0    50   Input ~ 0
 SDA
 Text GLabel 9200 1875 0    50   Input ~ 0
-COL3
+COL1
 Text GLabel 9200 1475 0    50   Input ~ 0
 ROTA
 Text GLabel 10200 1275 2    50   Input ~ 0
