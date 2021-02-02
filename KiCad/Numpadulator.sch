@@ -822,8 +822,6 @@ Wire Wire Line
 	4525 2900 4525 3300
 Wire Wire Line
 	3875 3400 4550 3400
-Wire Wire Line
-	5650 3200 5650 3525
 $Comp
 L Numpadulator-rescue:D_Small-Device D12
 U 1 1 5F2E4648
@@ -895,7 +893,7 @@ F 3 "~" V 7225 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3975 3525 7325 3525
+	3975 3525 5650 3525
 Connection ~ 3725 2100
 Wire Wire Line
 	3725 775  3725 2100
@@ -1531,8 +1529,6 @@ Wire Wire Line
 	4525 4900 4525 5300
 Wire Wire Line
 	3875 5400 4550 5400
-Wire Wire Line
-	5650 5200 5650 5525
 $Comp
 L Numpadulator-rescue:D_Small-Device D14
 U 1 1 5F4DF216
@@ -1605,8 +1601,6 @@ F 3 "~" V 7225 5200 50  0001 C CNN
 	1    7225 5200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3975 5525 7325 5525
 Wire Wire Line
 	1075 4625 1075 5400
 $Comp
@@ -1962,4 +1956,17 @@ F 3 "" H 1400 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 6300 2200 6300
+Wire Wire Line
+	5650 3200 5650 3525
+Connection ~ 5650 3525
+Wire Wire Line
+	5650 3525 7325 3525
+Wire Wire Line
+	3975 5525 5650 5525
+Wire Wire Line
+	5650 5200 5650 5525
+Connection ~ 5650 5525
+Wire Wire Line
+	5650 5525 7325 5525
+NoConn ~ 5200 6300
 $EndSCHEMATC
