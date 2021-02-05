@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"SW16,SW2,SW1,SW12,SW15,SW14,SW13,SW11,SW10,SW9,SW8,SW7,SW5,SW4,SW3";"Cherry-MX_PCB-Mounted_SK6812-MINI-E_Kailh_Socket";15;"Cherry_MX_RGB_WS2812";;;
+2;"SW19";"XDCR_PEC11R-4215F-S0024";1;"Rotary_Encoder_Switch";;;
+3;"MX3,MX2,MX1";"MXOnly-2U-Hotswap";3;"MX-NoLED";;;
+4;"D22,D21,D20";"SK6812-MINI-E";3;"WS2816";;;
+5;"U2";"Adafruit_SSD1306";1;"OLED_SSD1306";;;
+6;"U1";"PRO_MICRO_C";1;"PRO_MICRO_C";;;
+7;"D19,D18,D17,D16,D15,D14,D13,D12,D11,D10,D9,D8,D7,D6,D5,D4,D3,D2,D1";"D_SOD-123";19;"D_Small";;;
+8;"C18,C17,C16,C15,C14,C13,C12,C11,C10,C9,C8,C7,C6,C5,C4,C3,C2,C1";"C_0805_2012Metric";18;"0.1uF";;;
