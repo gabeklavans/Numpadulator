@@ -208,7 +208,7 @@ Text GLabel 10200 1475 2    50   Input ~ 0
 ROW1
 Text GLabel 10200 1375 2    50   Input ~ 0
 ROW0
-Text GLabel 9200 875  0    50   Input ~ 0
+Text GLabel 8900 875  0    50   Input ~ 0
 LED
 $Comp
 L PRO_MICRO_C:PRO_MICRO_C U1
@@ -1969,4 +1969,19 @@ Connection ~ 5650 5525
 Wire Wire Line
 	5650 5525 7325 5525
 NoConn ~ 5200 6300
+$Comp
+L Device:R_Small R1
+U 1 1 602D0601
+P 9050 875
+F 0 "R1" V 8854 875 50  0000 C CNN
+F 1 "470" V 8945 875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9050 875 50  0001 C CNN
+F 3 "~" H 9050 875 50  0001 C CNN
+	1    9050 875 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 875  9150 875 
+Wire Wire Line
+	8950 875  8900 875 
 $EndSCHEMATC
