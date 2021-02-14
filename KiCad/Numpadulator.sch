@@ -382,16 +382,6 @@ Wire Wire Line
 Text GLabel 1200 1475 0    50   Input ~ 0
 LED
 Wire Wire Line
-	1850 1375 1975 1375
-Wire Wire Line
-	1975 1375 1975 1725
-Wire Wire Line
-	1975 1725 1075 1725
-Wire Wire Line
-	1075 1725 1075 2400
-Wire Wire Line
-	2200 2300 2200 2400
-Wire Wire Line
 	3525 2300 3875 2300
 Wire Wire Line
 	3875 2300 3875 2400
@@ -701,10 +691,6 @@ Wire Wire Line
 Wire Wire Line
 	1075 3400 1200 3400
 Wire Wire Line
-	1850 3300 2200 3300
-Wire Wire Line
-	2200 3300 2200 3400
-Wire Wire Line
 	3525 3300 3875 3300
 Wire Wire Line
 	3875 3300 3875 3400
@@ -752,8 +738,6 @@ Wire Wire Line
 	2875 3300 2850 3300
 Wire Wire Line
 	2850 2900 2850 3300
-Wire Wire Line
-	2200 3400 2875 3400
 Wire Wire Line
 	875  3525 2300 3525
 Connection ~ 2300 3525
@@ -1277,10 +1261,6 @@ F 3 "" H 5200 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7225 3300 7225 3625
-Wire Wire Line
-	7225 3625 1075 3625
-Wire Wire Line
 	925  3900 1175 3900
 Wire Wire Line
 	1175 3900 1175 4300
@@ -1734,14 +1714,10 @@ $EndComp
 Wire Wire Line
 	1200 6300 1175 6300
 Wire Wire Line
-	1075 6400 1200 6400
-Wire Wire Line
 	2200 6300 2200 6400
 Wire Wire Line
 	875  6525 2300 6525
 Connection ~ 2300 6525
-Wire Wire Line
-	1075 5625 1075 6400
 $Comp
 L Numpadulator-rescue:GND-power #PWR0156
 U 1 1 5F560AEF
@@ -1757,8 +1733,6 @@ Wire Wire Line
 	925  5900 1175 5900
 Wire Wire Line
 	1175 5900 1175 6300
-Wire Wire Line
-	7225 5625 1075 5625
 Wire Wire Line
 	5200 6200 5450 6200
 $Comp
@@ -1850,8 +1824,6 @@ Text Notes 7050 7025 0    315  Italic 63
 Numpadulator
 Text Notes 550  650  0    50   ~ 0
 These decoupling caps on LEDs\nare recomended by the datasheet
-Wire Wire Line
-	2875 2400 2200 2400
 $Comp
 L Numpadulator-rescue:GND-power #PWR0160
 U 1 1 5F5DC33E
@@ -1863,8 +1835,6 @@ F 3 "" H 1850 1475 50  0001 C CNN
 	1    1850 1475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 2300 2200 2300
 Wire Wire Line
 	1075 2400 1200 2400
 NoConn ~ 9200 1975
@@ -1925,8 +1895,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 3400 6225 3400
 Wire Wire Line
-	6875 3300 7225 3300
-Wire Wire Line
 	6875 5200 7125 5200
 $Comp
 L Cherry_MX:WS2816 D22
@@ -1968,7 +1936,6 @@ Wire Wire Line
 Connection ~ 5650 5525
 Wire Wire Line
 	5650 5525 7325 5525
-NoConn ~ 5200 6300
 $Comp
 L Device:R_Small R1
 U 1 1 602D0601
@@ -1984,4 +1951,429 @@ Wire Wire Line
 	9200 875  9150 875 
 Wire Wire Line
 	8950 875  8900 875 
+$Comp
+L LED:SK6812MINI D23
+U 1 1 603270CA
+P 2875 1225
+F 0 "D23" H 3219 1271 50  0000 L CNN
+F 1 "SK6812MINI" H 3219 1180 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2925 925 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2975 850 50  0001 L TNN
+	1    2875 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D24
+U 1 1 6032956D
+P 4550 1225
+F 0 "D24" H 4894 1271 50  0000 L CNN
+F 1 "SK6812MINI" H 4894 1180 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4600 925 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4650 850 50  0001 L TNN
+	1    4550 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D26
+U 1 1 6034FC1B
+P 7825 3300
+F 0 "D26" H 8169 3346 50  0000 L CNN
+F 1 "SK6812MINI" H 8169 3255 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7875 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7925 2925 50  0001 L TNN
+	1    7825 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D27
+U 1 1 6034FC21
+P 250 6400
+F 0 "D27" H 594 6446 50  0000 L CNN
+F 1 "SK6812MINI" H 594 6355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 300 6100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 350 6025 50  0001 L TNN
+	1    250  6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D28
+U 1 1 6034FC27
+P 6050 6300
+F 0 "D28" H 6394 6346 50  0000 L CNN
+F 1 "SK6812MINI" H 6394 6255 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6100 6000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6150 5925 50  0001 L TNN
+	1    6050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Numpadulator-rescue:C_Small-Device C?
+U 1 1 6036FCAA
+P 2575 850
+F 0 "C?" H 2425 900 50  0000 L CNN
+F 1 "0.1uF" H 2300 825 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2575 850 50  0001 C CNN
+F 3 "~" H 2575 850 50  0001 C CNN
+	1    2575 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Numpadulator-rescue:GND-power #PWR?
+U 1 1 6036FCB0
+P 2475 850
+F 0 "#PWR?" H 2475 600 50  0001 C CNN
+F 1 "GND" H 2480 677 50  0000 C CNN
+F 2 "" H 2475 850 50  0001 C CNN
+F 3 "" H 2475 850 50  0001 C CNN
+	1    2475 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2675 850  2875 850 
+Wire Wire Line
+	2875 850  2875 925 
+Wire Wire Line
+	2875 850  2875 725 
+Connection ~ 2875 850 
+$Comp
+L power:VCC #PWR?
+U 1 1 603D37AD
+P 2875 725
+F 0 "#PWR?" H 2875 575 50  0001 C CNN
+F 1 "VCC" H 2890 898 50  0000 C CNN
+F 2 "" H 2875 725 50  0001 C CNN
+F 3 "" H 2875 725 50  0001 C CNN
+	1    2875 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603E8BB9
+P 2875 1525
+F 0 "#PWR?" H 2875 1275 50  0001 C CNN
+F 1 "GND" V 2880 1397 50  0000 R CNN
+F 2 "" H 2875 1525 50  0001 C CNN
+F 3 "" H 2875 1525 50  0001 C CNN
+	1    2875 1525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Numpadulator-rescue:C_Small-Device C?
+U 1 1 603EC8B5
+P 4250 850
+F 0 "C?" H 4100 900 50  0000 L CNN
+F 1 "0.1uF" H 3975 825 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4250 850 50  0001 C CNN
+F 3 "~" H 4250 850 50  0001 C CNN
+	1    4250 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Numpadulator-rescue:GND-power #PWR?
+U 1 1 603EC8BB
+P 4150 850
+F 0 "#PWR?" H 4150 600 50  0001 C CNN
+F 1 "GND" H 4155 677 50  0000 C CNN
+F 2 "" H 4150 850 50  0001 C CNN
+F 3 "" H 4150 850 50  0001 C CNN
+	1    4150 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 850  4550 850 
+Wire Wire Line
+	4550 850  4550 925 
+Wire Wire Line
+	4550 850  4550 725 
+Connection ~ 4550 850 
+$Comp
+L power:VCC #PWR?
+U 1 1 603EC8C5
+P 4550 725
+F 0 "#PWR?" H 4550 575 50  0001 C CNN
+F 1 "VCC" H 4565 898 50  0000 C CNN
+F 2 "" H 4550 725 50  0001 C CNN
+F 3 "" H 4550 725 50  0001 C CNN
+	1    4550 725 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 1375 2575 1225
+Wire Wire Line
+	1850 1375 2575 1375
+Wire Wire Line
+	3175 1225 4250 1225
+$Comp
+L power:GND #PWR?
+U 1 1 60462919
+P 4550 1525
+F 0 "#PWR?" H 4550 1275 50  0001 C CNN
+F 1 "GND" V 4555 1397 50  0000 R CNN
+F 2 "" H 4550 1525 50  0001 C CNN
+F 3 "" H 4550 1525 50  0001 C CNN
+	1    4550 1525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 1225 4850 1625
+Wire Wire Line
+	4850 1625 1075 1625
+Wire Wire Line
+	1075 1625 1075 2400
+Wire Wire Line
+	1850 2300 2200 2300
+Wire Wire Line
+	2200 2300 2200 2400
+Wire Wire Line
+	2875 2400 2200 2400
+$Comp
+L LED:SK6812MINI D25
+U 1 1 6033BB03
+P 25 3250
+F 0 "D25" H 369 3296 50  0000 L CNN
+F 1 "SK6812MINI" H 369 3205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 75  2950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 125 2875 50  0001 L TNN
+	1    25   3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3300 2075 3300
+Wire Wire Line
+	2075 3300 2075 3650
+Wire Wire Line
+	2075 3650 -275 3650
+Wire Wire Line
+	-275 3650 -275 3250
+Wire Wire Line
+	325  3250 325  3500
+Wire Wire Line
+	325  3500 2875 3500
+Wire Wire Line
+	2875 3500 2875 3400
+$Comp
+L Numpadulator-rescue:C_Small-Device C?
+U 1 1 60565279
+P -275 2875
+F 0 "C?" H -425 2925 50  0000 L CNN
+F 1 "0.1uF" H -550 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -275 2875 50  0001 C CNN
+F 3 "~" H -275 2875 50  0001 C CNN
+	1    -275 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L Numpadulator-rescue:GND-power #PWR?
+U 1 1 6056527F
+P -375 2875
+F 0 "#PWR?" H -375 2625 50  0001 C CNN
+F 1 "GND" H -370 2702 50  0000 C CNN
+F 2 "" H -375 2875 50  0001 C CNN
+F 3 "" H -375 2875 50  0001 C CNN
+	1    -375 2875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-175 2875 25   2875
+Wire Wire Line
+	25   2875 25   2950
+Wire Wire Line
+	25   2875 25   2750
+Connection ~ 25   2875
+$Comp
+L power:VCC #PWR?
+U 1 1 60565289
+P 25 2750
+F 0 "#PWR?" H 25  2600 50  0001 C CNN
+F 1 "VCC" H 40  2923 50  0000 C CNN
+F 2 "" H 25  2750 50  0001 C CNN
+F 3 "" H 25  2750 50  0001 C CNN
+	1    25   2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60579C82
+P 25 3550
+F 0 "#PWR?" H 25  3300 50  0001 C CNN
+F 1 "GND" H 30  3377 50  0000 C CNN
+F 2 "" H 25  3550 50  0001 C CNN
+F 3 "" H 25  3550 50  0001 C CNN
+	1    25   3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7525 3300 8125 3300
+Wire Wire Line
+	6875 3300 7525 3300
+Connection ~ 7525 3300
+Wire Wire Line
+	8125 3300 8125 3625
+Wire Wire Line
+	1075 3625 8125 3625
+Connection ~ 8125 3300
+$Comp
+L Numpadulator-rescue:C_Small-Device C?
+U 1 1 605D42B2
+P 7525 2925
+F 0 "C?" H 7375 2975 50  0000 L CNN
+F 1 "0.1uF" H 7250 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7525 2925 50  0001 C CNN
+F 3 "~" H 7525 2925 50  0001 C CNN
+	1    7525 2925
+	0    1    1    0   
+$EndComp
+$Comp
+L Numpadulator-rescue:GND-power #PWR?
+U 1 1 605D42B8
+P 7425 2925
+F 0 "#PWR?" H 7425 2675 50  0001 C CNN
+F 1 "GND" H 7430 2752 50  0000 C CNN
+F 2 "" H 7425 2925 50  0001 C CNN
+F 3 "" H 7425 2925 50  0001 C CNN
+	1    7425 2925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7625 2925 7825 2925
+Wire Wire Line
+	7825 2925 7825 3000
+Wire Wire Line
+	7825 2925 7825 2800
+Connection ~ 7825 2925
+$Comp
+L power:VCC #PWR?
+U 1 1 605D42C2
+P 7825 2800
+F 0 "#PWR?" H 7825 2650 50  0001 C CNN
+F 1 "VCC" H 7840 2973 50  0000 C CNN
+F 2 "" H 7825 2800 50  0001 C CNN
+F 3 "" H 7825 2800 50  0001 C CNN
+	1    7825 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605E92E4
+P 7825 3600
+F 0 "#PWR?" H 7825 3350 50  0001 C CNN
+F 1 "GND" H 7830 3427 50  0000 C CNN
+F 2 "" H 7825 3600 50  0001 C CNN
+F 3 "" H 7825 3600 50  0001 C CNN
+	1    7825 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  6400 1200 6400
+$Comp
+L Numpadulator-rescue:C_Small-Device C?
+U 1 1 6065A1B9
+P -50 6025
+F 0 "C?" H -200 6075 50  0000 L CNN
+F 1 "0.1uF" H -325 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -50 6025 50  0001 C CNN
+F 3 "~" H -50 6025 50  0001 C CNN
+	1    -50  6025
+	0    1    1    0   
+$EndComp
+$Comp
+L Numpadulator-rescue:GND-power #PWR?
+U 1 1 6065A1BF
+P -150 6025
+F 0 "#PWR?" H -150 5775 50  0001 C CNN
+F 1 "GND" H -145 5852 50  0000 C CNN
+F 2 "" H -150 6025 50  0001 C CNN
+F 3 "" H -150 6025 50  0001 C CNN
+	1    -150 6025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	50   6025 250  6025
+Wire Wire Line
+	250  6025 250  6100
+Wire Wire Line
+	250  6025 250  5900
+Connection ~ 250  6025
+$Comp
+L power:VCC #PWR?
+U 1 1 6065A1C9
+P 250 5900
+F 0 "#PWR?" H 250 5750 50  0001 C CNN
+F 1 "VCC" H 265 6073 50  0000 C CNN
+F 2 "" H 250 5900 50  0001 C CNN
+F 3 "" H 250 5900 50  0001 C CNN
+	1    250  5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-425 5625 -425 6400
+Wire Wire Line
+	-425 6400 -50  6400
+Wire Wire Line
+	-425 5625 7225 5625
+$Comp
+L power:GND #PWR?
+U 1 1 606873EB
+P 250 6700
+F 0 "#PWR?" H 250 6450 50  0001 C CNN
+F 1 "GND" H 255 6527 50  0000 C CNN
+F 2 "" H 250 6700 50  0001 C CNN
+F 3 "" H 250 6700 50  0001 C CNN
+	1    250  6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6300 5750 6300
+$Comp
+L Numpadulator-rescue:C_Small-Device C?
+U 1 1 606BA221
+P 5750 5925
+F 0 "C?" H 5600 5975 50  0000 L CNN
+F 1 "0.1uF" H 5475 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 5925 50  0001 C CNN
+F 3 "~" H 5750 5925 50  0001 C CNN
+	1    5750 5925
+	0    1    1    0   
+$EndComp
+$Comp
+L Numpadulator-rescue:GND-power #PWR?
+U 1 1 606BA227
+P 5650 5925
+F 0 "#PWR?" H 5650 5675 50  0001 C CNN
+F 1 "GND" H 5655 5752 50  0000 C CNN
+F 2 "" H 5650 5925 50  0001 C CNN
+F 3 "" H 5650 5925 50  0001 C CNN
+	1    5650 5925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 5925 6050 5925
+Wire Wire Line
+	6050 5925 6050 6000
+Wire Wire Line
+	6050 5925 6050 5800
+Connection ~ 6050 5925
+$Comp
+L power:VCC #PWR?
+U 1 1 606BA231
+P 6050 5800
+F 0 "#PWR?" H 6050 5650 50  0001 C CNN
+F 1 "VCC" H 6065 5973 50  0000 C CNN
+F 2 "" H 6050 5800 50  0001 C CNN
+F 3 "" H 6050 5800 50  0001 C CNN
+	1    6050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606D0833
+P 6050 6600
+F 0 "#PWR?" H 6050 6350 50  0001 C CNN
+F 1 "GND" H 6055 6427 50  0000 C CNN
+F 2 "" H 6050 6600 50  0001 C CNN
+F 3 "" H 6050 6600 50  0001 C CNN
+	1    6050 6600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6350 6300
 $EndSCHEMATC
