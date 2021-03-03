@@ -1974,17 +1974,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D26
-U 1 1 6034FC1B
-P 7825 3300
-F 0 "D26" H 8169 3346 50  0000 L CNN
-F 1 "SK6812MINI" H 8169 3255 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7875 3000 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7925 2925 50  0001 L TNN
-	1    7825 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED:SK6812MINI D27
 U 1 1 6034FC21
 P 250 6400
@@ -2203,15 +2192,9 @@ F 3 "" H 25  3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7525 3300 8125 3300
-Wire Wire Line
-	6875 3300 7525 3300
-Connection ~ 7525 3300
-Wire Wire Line
 	8125 3300 8125 3625
 Wire Wire Line
 	1075 3625 8125 3625
-Connection ~ 8125 3300
 $Comp
 L Numpadulator-rescue:C_Small-Device C24
 U 1 1 605D42B2
@@ -2376,4 +2359,17 @@ F 3 "" H 6050 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6350 6300
+Wire Wire Line
+	6875 3300 7525 3300
+$Comp
+L LED:SK6812MINI D26
+U 1 1 6034FC1B
+P 7825 3300
+F 0 "D26" H 8169 3346 50  0000 L CNN
+F 1 "SK6812MINI" H 8169 3255 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7875 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7925 2925 50  0001 L TNN
+	1    7825 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
